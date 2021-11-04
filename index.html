@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <h2>Slider</h2>
+    <div class="glide__arrows" data-glide-el="controls">
+      <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+        prev
+      </button>
+      <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+        next
+      </button>
+    </div>
+    <div class="glide glide-first">
+      <div
+        class="glide__track"
+        data-qwerty-test="Bonjour"
+        data-glide-el="track"
+      >
+        <ul class="glide__slides">
+          <li class="glide__slide glide__slide--red">
+            <img src="https://picsum.photos/seed/1/200" alt="picsum" />
+            <span>0</span>
+          </li>
+          <li class="glide__slide">
+            <img src="https://picsum.photos/seed/2/200" alt="picsum" /><span
+              >1</span
+            >
+          </li>
+          <li class="glide__slide">
+            <img src="https://picsum.photos/seed/3/200" alt="picsum" /><span
+              >2</span
+            >
+          </li>
+          <li class="glide__slide">
+            <img src="https://picsum.photos/seed/4/200" alt="picsum" /><span
+              >3</span
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- <div class="glide glide-second">
+      <div
+        class="glide__track"
+        data-qwerty-test="Bonjour"
+        data-glide-el="track"
+      >
+        <ul class="glide__slides">
+          <li class="glide__slide glide__slide--red">
+            <img src="https://picsum.photos/seed/1/200" alt="picsum" />
+            <span>0</span>
+          </li>
+          <li class="glide__slide">
+            <img src="https://picsum.photos/seed/2/200" alt="picsum" /><span
+              >1</span
+            >
+          </li>
+          <li class="glide__slide">
+            <img src="https://picsum.photos/seed/3/200" alt="picsum" /><span
+              >2</span
+            >
+          </li>
+          <li class="glide__slide">
+            <img src="https://picsum.photos/seed/4/200" alt="picsum" /><span
+              >3</span
+            >
+          </li>
+        </ul>
+      </div>
+    </div> -->
+
+    <h2>Mon horloge</h2>
+    <div class="clock"></div>
+    <h2>Mon fetch</h2>
+    <div class="lorem">
+      <div class="lds-circle"><div></div></div>
+    </div>
+    <h2>Ma calculette</h2>
+    <table>
+      <tr>
+        <th colspan="3"><input type="text" /></th>
+        <th><button>AC</button></th>
+      </tr>
+      <tr>
+        <td><button>1</button></td>
+        <td><button>2</button></td>
+        <td><button>3</button></td>
+        <td><button>+</button></td>
+      </tr>
+      <tr>
+        <td><button>4</button></td>
+        <td><button>5</button></td>
+        <td><button>6</button></td>
+        <td><button>-</button></td>
+      </tr>
+      <tr>
+        <td><button>7</button></td>
+        <td><button>8</button></td>
+        <td><button>9</button></td>
+        <td><button>*</button></td>
+      </tr>
+      <tr>
+        <td><button>.</button></td>
+        <td><button>0</button></td>
+        <td><button>=</button></td>
+        <td><button>/</button></td>
+      </tr>
+    </table>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
